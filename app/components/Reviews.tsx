@@ -7,13 +7,13 @@ const reviewsData = [
     quote: "Ha visto el trabajo de Massery en varios proyectos y siempre quedo impresionado por su creatividad y atención al detalle. Su estilo es profesional y transmite confianza en cada diseño.",
     name: "Jimmy Mendez",
     title: "Sr. Web Developer",
-    imageUrl: "/images/usuario.png",
+    imageUrl: "/images/jimmy.jpeg",
   },
   {
     quote: "Emely combina la creatividad y técnica de manera impecable. Cada proyecto que comparte muestra originalidad y un enfoque profesional que inspira confianza en quienes lo ven.",
     name: "Erick Urquilla",
     title: "Physicist and Astronomer, Knoxville Co-founder InspiraSTEM",
-    imageUrl: "/images/usuario.png",
+    imageUrl: "/images/erick.jpeg",
   },
 ];
 
