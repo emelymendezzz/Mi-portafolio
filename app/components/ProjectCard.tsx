@@ -1,14 +1,13 @@
 import React from 'react';
 import Image from 'next/image';
 
-// 1. Definimos la 'forma' de los datos que espera el componente
 type ProjectProps = {
   number: string;
   title: string;
   description: string;
   imageUrl: string;
-  bgColor: string; // El color de fondo que definimos en tailwind.config.ts
-  isReversed?: boolean; // ¿La imagen va a la derecha?
+  bgColor: string; 
+  isReversed?: boolean; 
 };
 
 const ProjectCard: React.FC<ProjectProps> = ({
@@ -31,7 +30,7 @@ const ProjectCard: React.FC<ProjectProps> = ({
           src={imageUrl}
           alt={`Mockup del proyecto ${title}`}
           layout="fill"
-          objectFit="cover" // Esto hace que la imagen cubra el div
+          objectFit="cover" 
         />
       </div>
 
@@ -42,7 +41,6 @@ const ProjectCard: React.FC<ProjectProps> = ({
         <p className="font-sans text-base leading-relaxed opacity-90">
           {description}
         </p>
-        {/* Aquí podrías añadir botones de "Ver más" o "Ver demo" en el futuro */}
       </div>
     </div>
   );

@@ -5,9 +5,8 @@ const projectsData = [
   {
     number: '01',
     title: 'Cofely',
-    // --- CORRECCIÓN AQUÍ: Usamos ` (backticks) ---
+
     description: `Cofely fue un proyecto de diseño en Figma enfocado en una cafetería moderna. El objetivo era crear una identidad visual cálida y atractiva, que reflejara el ambiente acogedor del lugar.`,
-    // --- CORRECCIÓN AQUÍ: Imagen correcta ---
     imageUrl: '/images/project-cofely.jpg', 
     bgColor: 'bg-black',
     isReversed: false,
@@ -15,9 +14,8 @@ const projectsData = [
   {
     number: '02',
     title: 'PAYOF',
-    // --- CORRECCIÓN AQUÍ: Usamos ` (backticks) ---
     description: `Payof es una aplicación de diseño conceptual enfocada en la organización financiera y la gestión inteligente del dinero. Desarrollada en Figma y PowerApps.`,
-    imageUrl: '/images/project-payof.jpg',
+    imageUrl: '/images/payof.jpeg',
     bgColor: 'bg-black',
     isReversed: true,
   },
