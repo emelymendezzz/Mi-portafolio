@@ -26,7 +26,7 @@ const Reviews = () => {
       // 'py-24' da espacio (padding) arriba y abajo
     >
       <div className="container mx-auto max-w-6xl">
-        <h2 className="font-serif text-4xl md:text-5xl font-bold text-center text-black mb-24">
+        <h2 className="font-serif text-4xl md:text-5xl font-bold text-center text-white mb-24">
           Reseñas
         </h2>
         
